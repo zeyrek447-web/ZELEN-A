@@ -1,18 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zelenia Neural Orb</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ZELENIA — Home</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="orb-container">
-        <div class="neural-orb">
-            <svg id="brain" viewBox="0 0 200 200"></svg>
-        </div>
-    </div>
+<div id="bg-canvas-wrap"><canvas id="bg-canvas"></canvas></div>
+<header class="nav">
+  <div class="logo">ZELENIA</div>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="signals.html">Signals</a>
+    <a href="stake.html">Stake</a>
+    <a href="docs.html">Docs</a>
+    <button id="connect" class="btn">Connect Wallet</button>
+  </nav>
+</header>
 
-    <script src="neural.js"></script>
+<main class="container">
+  <section class="hero">
+    <h1>Decentralized Intelligence for Solana Traders</h1>
+    <p class="lead">Matrix-network AI analyzes on-chain and market signals to surface trade insights.</p>
+    <div class="hero-actions">
+      <a href="signals.html" class="cta">View Signals</a>
+      <button id="demoConnect" class="btn ghost">Connect Phantom</button>
+    </div>
+    <div class="ai-card">
+      <div class="ai-title">Matrix Network</div>
+      <p>Abstract, agentive neural-network visualization driving ZELENIA's insights.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">© 2025 ZELENIA — Powered by Solana & AI</footer>
+<script src="script.js"></script>
 </body>
 </html>
