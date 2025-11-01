@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ZELENIA — Stake</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bg-canvas-wrap"><canvas id="bg-canvas"></canvas></div>
+<header class="nav">
+  <div class="logo">ZELENIA</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="signals.html">Signals</a>
+    <a href="stake.html" class="active">Stake</a>
+    <a href="docs.html">Docs</a>
+    <button id="connect3" class="btn">Connect Wallet</button>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="stake">
+    <h2>Stake (Demo)</h2>
+    <p class="lead">Stake USDC or JUP to unlock Pro signals. This demo shows layout; no funds are accepted.</p>
+    <div class="stake-box">
+      <label>Amount</label>
+      <input id="stakeAmount" placeholder="Enter amount (demo)" />
+      <div class="stake-actions">
+        <button id="stakeBtn" class="btn">Stake (Demo)</button>
+        <button id="unstakeBtn" class="btn ghost">Unstake (Demo)</button>
+      </div>
+    </div>
+    <div class="info small">Tip: Real staking will require SPL contract & audit.</div>
+  </section>
+</main>
+
+<footer class="footer">© 2025 ZELENIA — Stake</footer>
+<script src="script.js"></script>
+</body>
+</html>
